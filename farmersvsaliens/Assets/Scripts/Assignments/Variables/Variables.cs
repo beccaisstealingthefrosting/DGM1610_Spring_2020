@@ -31,7 +31,7 @@ public class Variables : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cookies(amount,money,cost);
+        Cookies(amount, money, cost);
 
 
 
@@ -45,8 +45,9 @@ public class Variables : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+ 
     }
+
 
     void Cookies(float amount, float money, float cost)
     {
