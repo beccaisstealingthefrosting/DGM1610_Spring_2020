@@ -266,6 +266,8 @@ MonoBehaviour:
   turnspeed: 200
   verticalInput: 0
   horizontalInput: 0
+  projectilePrefab: {fileID: 7543289785040041384, guid: 04045d45dbc293841ad6e7e012319969,
+    type: 3}
 --- !u!65 &223550455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -332,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223550453}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0.69, z: -8.08}
+  m_LocalPosition: {x: 0, y: 0.69, z: -8.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -752,7 +754,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297983037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.34, z: -4.47}
+  m_LocalPosition: {x: -7.53, y: 0.34, z: -4.47}
   m_LocalScale: {x: 0.57, y: 0.57, z: 0.57}
   m_Children: []
   m_Father: {fileID: 0}
