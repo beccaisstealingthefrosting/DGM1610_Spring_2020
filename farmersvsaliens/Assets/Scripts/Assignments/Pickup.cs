@@ -7,7 +7,7 @@ public class Pickup : MonoBehaviour
     public string pickupName;
     public string pickuptype;
     public int pointsToAdd;
-    public int points;
+    
 
 
     // Start is called before the first frame update
@@ -22,7 +22,7 @@ public class Pickup : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    protected void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
