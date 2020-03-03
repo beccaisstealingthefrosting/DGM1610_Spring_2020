@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             var hit = other.gameObject;
-            var health = hit.GetComponent<EnenyHealth>();
+            var health = hit.GetComponent<EnemyHealth>();
 
             if (health != null)
 

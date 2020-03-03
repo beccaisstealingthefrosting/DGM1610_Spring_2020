@@ -31,7 +31,7 @@ public class EnemyMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        enemyRb.AddForce((PlayerPrefs.transform.position - transform.position).normalized * moveSpeed);
+        enemyRb.AddForce((player.transform.position - transform.position).normalized * moveSpeed);
 
 
     }

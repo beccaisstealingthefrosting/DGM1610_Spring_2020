@@ -5,14 +5,15 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int currentHealth;
-    public const maxHealth = 3;
+    public int maxHealth = 3;
     public Transform spawnPoint;
-    public int points;
+    public int points = 10;
 
     
     void Start()
     {
         currentHealth = maxHealth;
+        spawnPoint = GameObject.Find("SpawnPoint").transform;
     }
 
        public void TakeDamage(int amount)

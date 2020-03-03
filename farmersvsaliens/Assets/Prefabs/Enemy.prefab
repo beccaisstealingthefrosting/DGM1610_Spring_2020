@@ -12,10 +12,11 @@ GameObject:
   - component: {fileID: 2672468204400078922}
   - component: {fileID: 2672468204400078921}
   - component: {fileID: 2672468204400078920}
-  - component: {fileID: 2672468204400078967}
+  - component: {fileID: 1132663288017737753}
+  - component: {fileID: 3433932156919082710}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +93,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2672468204400078967
+--- !u!114 &1132663288017737753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2672468204400078966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd02bcd18a55864f87aa76c62f10b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 3
+  spawnPoint: {fileID: 0}
+  points: 10
+--- !u!114 &3433932156919082710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,5 +121,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f7f57529d3d7b4182e9690563e831b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  moveSpeed: 4
+  player: {fileID: 0}
+  moveSpeed: 0

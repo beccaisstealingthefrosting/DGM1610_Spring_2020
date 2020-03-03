@@ -25,14 +25,22 @@ public class Move : MonoBehaviour
         transform.Translate(Vector3.forward*speed*Time.deltaTime*verticalInput);
         transform.Rotate(Vector3.up * turnspeed * Time.deltaTime * horizontalInput);
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        /*jumpInput = Input.GetAxis("Jump");
+
+        if (isGrounded && Input.GetButtonDown("Jump"))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
+        */
+
+        if(Input.GetKeyDown(KeyCode.F))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
 
     }                   
 
- /*   // Detect collision with another object
+    /* // Detect collision with another object
     void OnCollisionEnter(Collision other){
 
         if (other.gameObject.CompareTag("Floor")) // Primary
