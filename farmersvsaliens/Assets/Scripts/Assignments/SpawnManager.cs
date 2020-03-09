@@ -6,13 +6,18 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] enemyPrefab;
     public int enemyIndex;
-
+    //public int numenemy = 5;???
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+   /*   for(int i = 0;)
+        {
+            i < numenemy;
+        }  */
+
+
     }
 
     // Update is called once per frame

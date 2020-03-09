@@ -1575,8 +1575,18 @@ PrefabInstance:
     - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
         type: 3}
       propertyPath: moveSpeed
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 223550458}
+    - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 223550453}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c735a140f86bd47a8a987c3269440f, type: 3}
 --- !u!1001 &2672468204733938984
@@ -1661,15 +1671,10 @@ PrefabInstance:
       propertyPath: damage
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1132663288017737753, guid: 63c735a140f86bd47a8a987c3269440f,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
         type: 3}
       propertyPath: moveSpeed
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
         type: 3}
@@ -1677,6 +1682,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 223550453}
     - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3433932156919082710, guid: 63c735a140f86bd47a8a987c3269440f,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 223550458}
+    - target: {fileID: 1132663288017737753, guid: 63c735a140f86bd47a8a987c3269440f,
         type: 3}
       propertyPath: m_Enabled
       value: 1
